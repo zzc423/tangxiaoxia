@@ -44,11 +44,6 @@ export default function Footer() {
         </div>
         <div className="pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-text-secondary text-sm">© 2024 唐小侠. 保留所有权利。</p>
-          <nav className="flex gap-6" aria-label="法律链接">
-            <Link href="#" className="text-text-secondary hover:text-primary text-sm transition-colors">隐私政策</Link>
-            <Link href="#" className="text-text-secondary hover:text-primary text-sm transition-colors">服务条款</Link>
-            <Link href="#" className="text-text-secondary hover:text-primary text-sm transition-colors">无障碍声明</Link>
-          </nav>
         </div>
       </div>
     </footer>
