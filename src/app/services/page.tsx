@@ -5,7 +5,7 @@ const services = [
   {
     icon: Activity,
     title: 'CGM智能监测',
-    desc: '先进的持续血糖监测技术，24小时自动记录，无需频繁扎手指，数据实时同步到手机。',
+    desc: '先进的持续血糖监测技术，持续自动记录，无需频繁扎手指，数据实时同步到手机。',
   },
   {
     icon: Heart,
@@ -30,7 +30,7 @@ const services = [
   {
     icon: Phone,
     title: '全天候咨询',
-    desc: '24小时在线，随时联系您的健康顾问，有问题不再慌。',
+    desc: '适时在线，随时联系您的健康顾问，有问题不再慌。',
   },
 ]
 
@@ -111,7 +111,7 @@ export default function ServicesPage() {
           <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-100">
             <ul className="space-y-4" aria-label="选择唐小侠的理由">
               {[
-                '无需频繁扎手指，24小时持续监测',
+                '无需频繁扎手指，持续监测血糖',
                 '专属健康顾问，全程陪伴',
                 '属地化服务，关怀更近',
                 '数据驱动，管理更科学',

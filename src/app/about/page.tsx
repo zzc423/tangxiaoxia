@@ -4,8 +4,8 @@ import { Heart, Sparkles, Target, Shield, ArrowRight, CheckCircle } from 'lucide
 const values = [
   { icon: Heart, title: '良善', desc: '像对待家人一样对待每一位用户，感同身受每一份忧虑' },
   { icon: Sparkles, title: '求实', desc: '用数据说话，用实证验证每一项服务' },
-  { icon: Target, title: '专注', desc: '只做一件事：让糖尿病管理变得更简单' },
-  { icon: Shield, title: '守护', desc: '守护每一位用户的健康数据安全' },
+  { icon: Target, title: '开放', desc: '拥抱变化，持续创新' },
+  { icon: Shield, title: '包容', desc: '理解每一位用户的独特需求' },
 ]
 
 const stats = [

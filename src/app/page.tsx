@@ -9,8 +9,8 @@ const services = [
   {
     icon: Activity,
     title: 'CGM智能监测',
-    desc: '24小时持续监测血糖，无需扎手指，数据实时同步',
-    features: ['无需扎手指', '全天监测', '数据同步'],
+    desc: '持续监测血糖，无需扎手指，数据实时同步',
+    features: ['无需扎手指', '持续监测', '数据同步'],
   },
   {
     icon: Heart,

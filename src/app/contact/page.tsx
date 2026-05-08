@@ -5,9 +5,9 @@ import Image from 'next/image'
 
 const contactInfo = [
   { icon: Phone, title: '联系电话', content: '19050199720', sub: '周一至周日 8:00-22:00' },
-  { icon: Mail, title: '电子邮箱', content: 'txx0121@163.com', sub: '24小时内回复' },
+  { icon: Mail, title: '电子邮箱', content: 'txx0121@163.com', sub: '随时回复' },
   { icon: MapPin, title: '公司地址', content: '山东省济南市高新区孙村街道港西路', sub: '山东高科技创新园9号楼6层C区634' },
-  { icon: Clock, title: '服务时间', content: '健康咨询：24/7 全天候', sub: '工作人员将在24小时内与您联系' },
+  { icon: Clock, title: '服务时间', content: '健康咨询：适时响应', sub: '工作人员将及时与您联系' },
 ]
 
 export default function ContactPage() {
