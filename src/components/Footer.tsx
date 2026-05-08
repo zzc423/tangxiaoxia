@@ -29,15 +29,15 @@ export default function Footer() {
             <ul className="space-y-3 text-text-secondary">
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
-                <span>电话：400-888-6666</span>
+                <span>电话：19050199720</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
-                <span>care@tangxiaoxia.com</span>
+                <span>txx0121@163.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
-                <span>北京市朝阳区建国路88号</span>
+                <span>山东省济南市高新区孙村街道港西路山东高科技创新园9号楼6层C区634</span>
               </li>
             </ul>
           </div>
