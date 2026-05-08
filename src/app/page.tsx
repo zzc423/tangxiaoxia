@@ -27,7 +27,7 @@ const services = [
   {
     icon: Shield,
     title: '数据安全',
-    desc: '银行级加密保护，您的健康数据绝对私密',
+    desc: '加密存储保护，您的健康数据绝对私密',
     features: ['加密存储', '隐私保护', '安全可靠'],
   },
 ]

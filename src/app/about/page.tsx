@@ -99,7 +99,7 @@ export default function AboutPage() {
               '个性化饮食和运动方案',
               '专业医疗团队定期评估',
               '数据实时同步，子女也能查看',
-              '银行级加密，数据安全无忧',
+              '数据安全，无后顾之忧',
             ].map((feature) => (
               <div key={feature} className="flex items-start gap-3 p-4">
                 <CheckCircle className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />

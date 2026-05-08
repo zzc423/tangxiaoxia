@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd e:/Agent/AAAtanbaner/temp-tangxiaoxia && gh workflow run deploy.yml 2>&1\",\"description\":\"Trigger GitHub Actions deployment\"}",
-  "error": "Exit code 127\n/usr/bin/bash: line 1: gh: command not found",
-  "timestamp": "2026-05-08T08:35:37.563Z",
-  "retry_count": 2
+  "tool_input_preview": "{\"command\":\"cd e:/Agent/AAAtanbaner/temp-tangxiaoxia && git push\",\"timeout\":120000,\"description\":\"Retry push\"}",
+  "error": "Exit code 128\nfatal: unable to access 'https://github.com/zzc423/tangxiaoxia.git/': Failed to connect to github.com port 443 after 21082 ms: Could not connect to server",
+  "timestamp": "2026-05-08T08:54:40.926Z",
+  "retry_count": 3
 }

@@ -37,13 +37,13 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" aria-hidden="true" />
-                <span>山东省济南市高新区孙村街道港西路山东高科技创新园9号楼6层C区634</span>
+                <span>地址 | 历城区旅游路8661号山东高科技创新园9号楼C2口6层「唐小侠」</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-text-secondary text-sm">© 2024 唐小侠. 保留所有权利。</p>
+          <p className="text-text-secondary text-sm">© 2026 唐小侠. 保留所有权利。</p>
         </div>
       </div>
     </footer>
