@@ -45,6 +45,7 @@ jobs:
           find out -name "*.html" -exec sed -i 's|href="/stories"|href="/tangxiaoxia/stories"|g' {} \;
           find out -name "*.html" -exec sed -i 's|href="/contact"|href="/tangxiaoxia/contact"|g' {} \;
           find out -name "*.html" -exec sed -i 's|href="/patient"|href="/tangxiaoxia/patient"|g' {} \;
+          find out -name "*.html" -exec sed -i 's|src="/wechat|src="/tangxiaoxia/wechat|g' {} \;
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
