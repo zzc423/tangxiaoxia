@@ -94,7 +94,7 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {[
-              '真人护理团队，24小时随时响应',
+              '真人护理团队，适时响应',
               '无需扎手指，CGM持续血糖监测',
               '个性化饮食和运动方案',
               '专业医疗团队定期评估',
