@@ -1,36 +1,15 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { Heart, ArrowRight, CheckCircle } from 'lucide-react'
 
-const stories = [
-  {
-    name: '张先生，62岁',
-    duration: '使用服务 14 个月',
-    content: '以前血糖控制得很差，总觉得这是种负担。每天扎手指记录数据，麻烦不说，数值不稳定心里更慌。自从有了唐小侠的健康顾问每天跟进，我觉得心里踏实多了。',
-    result: '血糖达标率 92%',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face',
-  },
-  {
-    name: '王阿姨，68岁',
-    duration: '使用服务 8 个月',
-    content: '我今年68了，之前总觉得这些高科技产品是年轻人用的，跟我没关系。护理师特别耐心，一点一点教我。现在我每天看手机上的数据图表，觉得很有意思。',
-    result: '已减药 1 种',
-    image: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=200&h=200&fit=crop&crop=face',
-  },
-  {
-    name: '李大爷，71岁',
-    duration: '使用服务 2 年',
-    content: '最让我感动的是顾问们的关心，他们真的像家人一样。前段时间我身体不舒服，顾问主动打来电话安慰我，陪我聊了很久。这种关心，是以前去医院从来没有体验过的。',
-    result: '糖化血红蛋白 6.8%',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face',
-  },
-  {
-    name: '陈奶奶，76岁',
-    duration: '使用服务 18 个月',
-    content: '我糖尿病十几年了，之前一直担心并发症。加入唐小侠后，有专门的团队帮我监测各项指标，还会定期提醒我做检查。现在我对自己的身体状况前所未有的了解。',
-    result: '并发症风险显著降低',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&crop=face',
-  },
-]
+const story = {
+  name: '大可',
+  age: '50岁确诊，控糖6年',
+  content: '2020年确诊2型糖尿病伴酮症酸中毒，空腹血糖24mmol/L，糖化血红蛋白14%。通过改变生活方式，三个月后成功停用胰岛素，一年后糖化血红蛋白降到5.4%。',
+  quote: '别怕。真的，别怕。这条路我走过，一开始很黑，但走着走着，天就亮了。找到你的战友——家人、糖友、负责任的护理，一个人走很累，一群人走就不孤单。',
+  result: '糖化血红蛋白 5.4%',
+  image: '/user-photo.jpg',
+}
 
 export default function StoriesPage() {
   return (
@@ -45,42 +24,45 @@ export default function StoriesPage() {
         </div>
       </section>
 
-      {/* Stories */}
-      <section className="py-16 sm:py-20 bg-background" aria-labelledby="stories-heading">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
-          <h2 id="stories-heading" className="sr-only">用户故事列表</h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {stories.map((story) => (
-              <article key={story.name} className="bg-white rounded-xl p-6 sm:p-8 shadow-sm border border-gray-100">
-                <div className="flex flex-col sm:flex-row items-start gap-6">
-                  <img
-                    src={story.image}
-                    alt={`${story.name}的照片`}
-                    className="w-20 h-20 rounded-full object-cover flex-shrink-0 border-2 border-primary/20"
-                    loading="lazy"
-                  />
-                  <div className="flex-1">
-                    <div className="flex gap-1 mb-3" aria-label="5星评分" role="img">
-                      {[...Array(5)].map((_, i) => (
-                        <Heart key={i} className="w-5 h-5 text-amber-400 fill-current" aria-hidden="true" />
-                      ))}
-                    </div>
-                    <blockquote className="text-base text-text-secondary mb-4 leading-relaxed">
-                      "{story.content}"
-                    </blockquote>
-                    <div className="bg-primary/5 rounded-lg px-4 py-3 mb-4">
-                      <p className="text-primary font-semibold text-sm flex items-center gap-2">
-                        <CheckCircle className="w-4 h-4" aria-hidden="true" />
-                        {story.result}
-                      </p>
-                    </div>
-                    <p className="font-bold text-text-primary">{story.name}</p>
-                    <p className="text-sm text-text-secondary mt-1">{story.duration}</p>
-                  </div>
-                </div>
-              </article>
-            ))}
-          </div>
+      {/* Single Story */}
+      <section className="py-16 sm:py-20 bg-background" aria-labelledby="story-heading">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-16">
+          <article className="bg-white rounded-xl p-6 sm:p-10 shadow-sm border border-gray-100">
+            <div className="flex flex-col items-center text-center">
+              <div className="w-32 h-32 relative mb-6 rounded-full overflow-hidden border-4 border-primary/20">
+                <Image
+                  src={story.image}
+                  alt={`${story.name}的照片`}
+                  fill
+                  className="object-cover"
+                  sizes="128px"
+                />
+              </div>
+              <h2 id="story-heading" className="text-2xl font-bold text-text-primary mb-2 font-heading">{story.name}</h2>
+              <p className="text-text-secondary mb-6">{story.age}</p>
+
+              <div className="flex gap-1 mb-6" aria-label="5星评分" role="img">
+                {[...Array(5)].map((_, i) => (
+                  <Heart key={i} className="w-5 h-5 text-amber-400 fill-current" aria-hidden="true" />
+                ))}
+              </div>
+
+              <p className="text-base text-text-secondary mb-6 leading-relaxed">
+                {story.content}
+              </p>
+
+              <blockquote className="text-lg text-primary italic mb-6 border-l-4 border-primary pl-4 text-left w-full">
+                "{story.quote}"
+              </blockquote>
+
+              <div className="bg-primary/5 rounded-lg px-6 py-4 mb-6">
+                <p className="text-primary font-semibold flex items-center justify-center gap-2">
+                  <CheckCircle className="w-5 h-5" aria-hidden="true" />
+                  {story.result}
+                </p>
+              </div>
+            </div>
+          </article>
         </div>
       </section>
 
