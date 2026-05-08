@@ -89,7 +89,7 @@ export default function ContactPage() {
             <div className="bg-white rounded-2xl p-6 sm:p-8 lg:p-10 shadow-sm border border-gray-100">
               <h2 className="text-2xl font-bold text-text-primary mb-2 font-heading">免费申请服务</h2>
               <p className="text-base text-text-secondary mb-8">填写以下信息，我们的工作人员将在24小时内与您联系</p>
-              <form action="https://formspree.io/f/xpwzwznv" method="POST" onSubmit={handleSubmit} noValidate className="space-y-6">
+              <form onSubmit={handleSubmit} noValidate className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-base font-medium text-text-primary mb-2">
                     姓名 <span className="text-red-500" aria-hidden="true">*</span>
