@@ -1,7 +1,0 @@
-{
-  "tool_name": "Read",
-  "tool_input_preview": "{\"file_path\":\"C:\\\\Users\\\\SIB\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\e--Agent-AAAtanbaner\\\\f50839f1-6065-4e59-807a-442eb4cc8886\\\\tasks\\\\bn9dgwcip.output\"}",
-  "error": "File content (393.5KB) exceeds maximum allowed size (256KB). Use offset and limit parameters to read specific portions of the file, or search for specific content instead of reading the whole file.",
-  "timestamp": "2026-05-07T05:55:58.418Z",
-  "retry_count": 1
-}

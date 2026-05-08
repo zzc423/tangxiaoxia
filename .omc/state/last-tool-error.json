@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd e:/Agent/AAAtanbaner/temp-tangxiaoxia && cat .gitignore 2>&1\",\"description\":\"Check gitignore\"}",
-  "error": "Exit code 1\ncat: .gitignore: No such file or directory",
-  "timestamp": "2026-05-08T03:34:32.734Z",
-  "retry_count": 1
+  "tool_input_preview": "{\"command\":\"cd e:/Agent/AAAtanbaner/temp-tangxiaoxia && gh workflow run deploy.yml 2>&1\",\"description\":\"Trigger GitHub Actions deployment\"}",
+  "error": "Exit code 127\n/usr/bin/bash: line 1: gh: command not found",
+  "timestamp": "2026-05-08T08:35:37.563Z",
+  "retry_count": 2
 }

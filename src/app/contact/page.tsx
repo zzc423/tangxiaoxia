@@ -40,7 +40,7 @@ export default function ContactPage() {
                 <MessageCircle className="w-6 h-6" aria-hidden="true" />
                 <span className="text-xl font-semibold">扫码添加微信</span>
               </div>
-              <p className="text-text-secondary text-center mt-2">长按识别二维码，关注公众号或添加客服微信</p>
+              <p className="text-text-secondary text-center mt-2">长按识别二维码，关注"唐小侠控糖"服务号</p>
             </div>
 
             {/* Contact Info */}

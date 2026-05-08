@@ -1,109 +1,111 @@
 {
   "pages": {
     "/_not-found/page": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
+      "static/chunks/webpack-2d8c870242128ed1.js",
       "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
+      "static/chunks/23-37315278f40a4792.js",
       "static/chunks/main-app-ea1a31ac54f7a86f.js",
       "static/chunks/app/_not-found/page-0a56a3aa2718b571.js"
     ],
     "/layout": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
+      "static/chunks/webpack-2d8c870242128ed1.js",
       "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
+      "static/chunks/23-37315278f40a4792.js",
       "static/chunks/main-app-ea1a31ac54f7a86f.js",
-      "static/css/28d224ae74fb665e.css",
-      "static/css/484c8d9bb3dbed58.css",
-      "static/css/ed05ce8eeafae981.css",
-      "static/chunks/231-e32596a841d87b4b.js",
-      "static/chunks/app/layout-0902e394f10f7345.js"
+      "static/css/a22ca8537318baf2.css",
+      "static/css/fe20b9607a89cd57.css",
+      "static/css/1c84575a12143a39.css",
+      "static/chunks/231-4891ecfc84f08f32.js",
+      "static/chunks/app/layout-54b7b8cde7aa1cdd.js"
     ],
     "/contact/page": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
+      "static/chunks/webpack-2d8c870242128ed1.js",
       "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
+      "static/chunks/23-37315278f40a4792.js",
       "static/chunks/main-app-ea1a31ac54f7a86f.js",
-      "static/chunks/app/contact/page-c67f40db5d2fc104.js"
+      "static/chunks/448-383524f8808e486c.js",
+      "static/chunks/app/contact/page-c828986b3bd1510d.js"
     ],
     "/about/page": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
+      "static/chunks/webpack-2d8c870242128ed1.js",
       "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
+      "static/chunks/23-37315278f40a4792.js",
       "static/chunks/main-app-ea1a31ac54f7a86f.js",
-      "static/chunks/231-e32596a841d87b4b.js",
-      "static/chunks/app/about/page-5323a65db9bc471a.js"
+      "static/chunks/231-4891ecfc84f08f32.js",
+      "static/chunks/app/about/page-7d12a2261200aa9e.js"
     ],
     "/patient/diet/record/page": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
+      "static/chunks/webpack-2d8c870242128ed1.js",
       "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
+      "static/chunks/23-37315278f40a4792.js",
       "static/chunks/main-app-ea1a31ac54f7a86f.js",
-      "static/chunks/231-e32596a841d87b4b.js",
+      "static/chunks/231-4891ecfc84f08f32.js",
       "static/chunks/app/patient/diet/record/page-da6950d1f09d9bd5.js"
     ],
     "/patient/diet/page": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
+      "static/chunks/webpack-2d8c870242128ed1.js",
       "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
+      "static/chunks/23-37315278f40a4792.js",
       "static/chunks/main-app-ea1a31ac54f7a86f.js",
-      "static/chunks/231-e32596a841d87b4b.js",
+      "static/chunks/231-4891ecfc84f08f32.js",
       "static/chunks/app/patient/diet/page-051ec037515a7a22.js"
     ],
     "/page": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
+      "static/chunks/webpack-2d8c870242128ed1.js",
       "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
+      "static/chunks/23-37315278f40a4792.js",
       "static/chunks/main-app-ea1a31ac54f7a86f.js",
-      "static/chunks/231-e32596a841d87b4b.js",
-      "static/chunks/app/page-e399e7f147297b04.js"
+      "static/chunks/231-4891ecfc84f08f32.js",
+      "static/chunks/app/page-1b23a143166143cb.js"
     ],
     "/patient/exercise/page": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
+      "static/chunks/webpack-2d8c870242128ed1.js",
       "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
+      "static/chunks/23-37315278f40a4792.js",
       "static/chunks/main-app-ea1a31ac54f7a86f.js",
-      "static/chunks/231-e32596a841d87b4b.js",
+      "static/chunks/231-4891ecfc84f08f32.js",
       "static/chunks/app/patient/exercise/page-17cafdc5958e8670.js"
     ],
     "/patient/medication/add/page": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
+      "static/chunks/webpack-2d8c870242128ed1.js",
       "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
+      "static/chunks/23-37315278f40a4792.js",
       "static/chunks/main-app-ea1a31ac54f7a86f.js",
-      "static/chunks/231-e32596a841d87b4b.js",
+      "static/chunks/231-4891ecfc84f08f32.js",
       "static/chunks/app/patient/medication/add/page-bbaa044a0338e713.js"
     ],
-    "/patient/medication/page": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
-      "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
-      "static/chunks/main-app-ea1a31ac54f7a86f.js",
-      "static/chunks/231-e32596a841d87b4b.js",
-      "static/chunks/app/patient/medication/page-85ba6cf4c2579402.js"
-    ],
-    "/services/page": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
-      "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
-      "static/chunks/main-app-ea1a31ac54f7a86f.js",
-      "static/chunks/231-e32596a841d87b4b.js",
-      "static/chunks/app/services/page-c0de25d08f275908.js"
-    ],
     "/patient/exercise/record/page": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
+      "static/chunks/webpack-2d8c870242128ed1.js",
       "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
+      "static/chunks/23-37315278f40a4792.js",
       "static/chunks/main-app-ea1a31ac54f7a86f.js",
-      "static/chunks/231-e32596a841d87b4b.js",
+      "static/chunks/231-4891ecfc84f08f32.js",
       "static/chunks/app/patient/exercise/record/page-203e27206b95e2ea.js"
     ],
     "/stories/page": [
-      "static/chunks/webpack-3de60fcfcc324440.js",
+      "static/chunks/webpack-2d8c870242128ed1.js",
       "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
-      "static/chunks/23-bf1ccceebedef4a8.js",
+      "static/chunks/23-37315278f40a4792.js",
       "static/chunks/main-app-ea1a31ac54f7a86f.js",
-      "static/chunks/231-e32596a841d87b4b.js",
-      "static/chunks/app/stories/page-ec53da58d581bb78.js"
+      "static/chunks/231-4891ecfc84f08f32.js",
+      "static/chunks/448-383524f8808e486c.js",
+      "static/chunks/app/stories/page-5f4a212ef4fc1720.js"
+    ],
+    "/patient/medication/page": [
+      "static/chunks/webpack-2d8c870242128ed1.js",
+      "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
+      "static/chunks/23-37315278f40a4792.js",
+      "static/chunks/main-app-ea1a31ac54f7a86f.js",
+      "static/chunks/231-4891ecfc84f08f32.js",
+      "static/chunks/app/patient/medication/page-85ba6cf4c2579402.js"
+    ],
+    "/services/page": [
+      "static/chunks/webpack-2d8c870242128ed1.js",
+      "static/chunks/fd9d1056-f339e2eb6e5bc8ec.js",
+      "static/chunks/23-37315278f40a4792.js",
+      "static/chunks/main-app-ea1a31ac54f7a86f.js",
+      "static/chunks/231-4891ecfc84f08f32.js",
+      "static/chunks/app/services/page-eb84057507ec7b21.js"
     ]
   }
 }

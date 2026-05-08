@@ -7,8 +7,8 @@
   "/page": "app/page.js",
   "/patient/exercise/page": "app/patient/exercise/page.js",
   "/patient/medication/add/page": "app/patient/medication/add/page.js",
-  "/patient/medication/page": "app/patient/medication/page.js",
-  "/services/page": "app/services/page.js",
   "/patient/exercise/record/page": "app/patient/exercise/record/page.js",
-  "/stories/page": "app/stories/page.js"
+  "/stories/page": "app/stories/page.js",
+  "/patient/medication/page": "app/patient/medication/page.js",
+  "/services/page": "app/services/page.js"
 }
