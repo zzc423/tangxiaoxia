@@ -1,0 +1,14 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/patient/exercise/record/page": "app/patient/exercise/record/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/patient/exercise/page": "app/patient/exercise/page.js",
+  "/patient/medication/page": "app/patient/medication/page.js",
+  "/stories/page": "app/stories/page.js",
+  "/patient/medication/add/page": "app/patient/medication/add/page.js",
+  "/services/page": "app/services/page.js",
+  "/patient/diet/record/page": "app/patient/diet/record/page.js",
+  "/page": "app/page.js",
+  "/patient/diet/page": "app/patient/diet/page.js"
+}

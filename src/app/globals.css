@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&family=Noto+Sans:wght@300;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Sans', var(--font-noto-sans), sans-serif;
+}
+
+/* Focus ring for accessibility */
+*:focus-visible {
+  outline: 3px solid #2A6F6A;
+  outline-offset: 2px;
+}
+
+/* Smooth transitions for interactions */
+a, button {
+  transition: all 150ms ease-out;
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
