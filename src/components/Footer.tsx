@@ -42,8 +42,32 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-text-secondary text-sm">© 2026 唐小侠. 保留所有权利。</p>
+        <div className="pt-8 border-t border-gray-200 flex flex-col gap-4">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+            <p className="text-text-secondary text-sm">© 2026 唐小侠. 保留所有权利。</p>
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-text-secondary text-sm">
+            {/* 工信部ICP备案 */}
+            <a
+              href="https://beian.miit.gov.cn/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-primary transition-colors"
+            >
+              鲁ICP备2026026614号-1
+            </a>
+            {/* 公安部公安备案 */}
+            <a
+              href="http://www.beian.gov.cn/portal/registerSystemInfo"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-primary transition-colors inline-flex items-center gap-1"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src="/beian-icon.png" alt="公安备案图标" className="h-4 w-4 inline-block" />
+              鲁公网安备37010102007165号
+            </a>
+          </div>
         </div>
       </div>
     </footer>
